@@ -65,3 +65,45 @@ if __name__ == '__main__':
     print(f'Hey{teacher1.name}? Why you can vote fater my')
     SpecialStudent.myfather()
     teacher1.spank()
+
+
+
+
+output:
+john
+english
+---8.30 oc---
+teacherjohnteachenglish
+hello
+hello
+glongstuding...
+josestuding...
+---9.00 oc---
+hello namejohn
+john
+english
+---8.30 oc---
+teacherjohnteachenglish
+hello
+hello
+glongstuding...
+josestuding...
+---9.00 oc---
+hello namejohn
+walk aroud
+Hey do you know jackychan
+john
+english
+---8.30 oc---
+teacherjohnteachenglish
+hello
+hello
+glongstuding...
+josestuding...
+---9.00 oc---
+hello namejohn
+walk to friend
+Hey do you know jackychan
+Heyjohn? Why you can vote fater my
+Do you know my farther have submary
+คุณเพ้อเจ้าล่ะ บอกแล้วว่า อย่าลืมกินยา
