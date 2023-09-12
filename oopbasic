@@ -1,0 +1,67 @@
+# oopbasic.py
+
+class Student:
+
+    def __init__(self,name,age,gender):
+        self.name = name
+        self.age = age
+        self.gender = gender
+
+    def study(self):
+        print(f'{self.name}studing...')
+
+    def hello(self):
+        print('hello')
+
+
+class SpecialStudent(Student):
+
+    def __init__(self,nmae,age,gender,parent):
+        super().__init__(nmae,age,gender)
+        self.prent = parent
+    def hello1(self, person='friend'):
+        if person == 'friend':
+            print('Hey do you know jackychan')
+        else:
+            print('run away')    
+
+    def hello(self):
+        print(f'hello name{self.name}')
+
+    def myfather(self):
+        print('Do you know my farther have submarine')   
+
+class Teacher:
+
+    def __init__(self,name,gender,subject):
+        self.name = name
+        self.gender = gender
+        self.subject = subject
+
+    def teach(self):
+        print('teacher{}teach{}'.format(self.name,self.subject))
+    
+    def spank(self):
+        print('คุณเพ้อเจ้าล่ะ บอกแล้วว่า อย่าลืมกินยา')
+if __name__ == '__main__':
+    student1 = Student('glong',15,'male')
+    student2 = Student('jose',15,'female')
+    SpecialStudent = SpecialStudent('john',18,'female','father is tu')
+    
+    teacher1 = Teacher('john','male','math')
+    print(teacher1.name)
+    print(teacher1.subject)
+
+    print('---8.30 oc---')
+    teacher1.teach()
+    student1.hello()
+    student2.hello()
+    student1.study()
+    student2.study()
+    print('---9.00 oc---')
+    SpecialStudent.hello()
+    print('walk to friend')
+    SpecialStudent.hello1()
+    print(f'Hey{teacher1.name}? Why you can vote fater my')
+    SpecialStudent.myfather()
+    teacher1.spank()
